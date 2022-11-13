@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>SIGN IN</title>
+    </head>
+    <style>
+        body{
+            text-align:center;
+            background-image: url("book2.jpeg");
+            background-repeat:repeat;
+            background-position: center;
+            background-size: cover;
+            
+            
+        }
+        div{
+            text-align: center;
+            background-color:honeydew;
+            width:500px;
+            height:500px;
+            margin-left:400px;
+            margin-right:500px;
+            margin-top:70px;
+            margin-bottom:50px;
+            padding:10px 10px 10px 10px;
+            border-radius: 60px;
+            border-left: 2px solid ghostwhite;
+            border-right: 3px solid ghostwhite;
+            box-shadow:0 8px 32px 0 black;
+        }
+        h1{
+            text-align:center;
+            padding-top:15px;
+            font-family:fantasy;
+            font-size:30px;
+        }
+        .label{
+            width:350px;
+            padding:10px 10px 10px 10px;
+            margin:10px 10px 10px 10px;
+            font-size: larger;
+            font-style: italic;
+            color: chocolate;
+            border-width:2px;
+            border-color: black;
+        }
+       
+    </style>
+    <body>
+        <div>
+            
+                <h1>LOGIN</h1>
+                <input type="text" class="label" name="uname" placeholder="Enter Username"  required><br>
+                <input type="password" class="label" name="password" placeholder="Password" required ><br><br>
+                <form method="post" action="catalog.html" >
+                    <input type="submit" value="submit" style=" padding:10px 10px 10px 10px; margin:10px 10px 10px 10px; width:200px;background: linear-gradient(to left, #993366 0%, #ff99cc 100%); " >
+                </form>
+            <form method="post" action="reg.html" >
+                <input type="submit" value="Register" >
+                &nbsp;&nbsp;
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </body>
+</html>
